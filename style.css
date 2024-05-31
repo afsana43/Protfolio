@@ -199,12 +199,14 @@ nav > ul> li{
     grid-gap: 40px;
 }
 
-
 /* contact us */
+.contact{
+    margin-top: 80px;
+}
 .contact-container{
     background-color: #FD6F001A;
     padding: 60px;
-    margin: 40px;
+    margin-top: 40px;
 }
 .info{
     display: flex;
@@ -242,7 +244,7 @@ nav > ul> li{
 }
 
 /* footer section */
-/* .footer-container{
+.footer-container{
     background-color: black;
     padding: 80px ;
     display: block;
@@ -265,7 +267,7 @@ nav > ul> li{
 .name{
     color: var(--primery-color);
    
-} */
+}
 
 
 

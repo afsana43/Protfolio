@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 375px) and (max-width: 640px){
+@media only screen and (max-width: 640px){
     .container{
         padding: 16px;
     }
@@ -48,12 +48,36 @@
         flex-direction: column;
     }
     .primery-desc{
-        font-size: 14px;
+        font-size: 16px;
         width: 400px;
+    }
+    .single-award{
+        width: 100%;
     }
     /* protfolio */
     .single-project {
         grid-template-columns: auto ;
         gap: 10px;
+    }
+    .primery-title{
+        font-size: 20px;
+    }
+    .single-project img{
+        width: 100%;
+       }
+    .info-desc{
+        color: white;
+        border-bottom: 1px solid gray;
+        padding: 10px 0;
+        width: 100%;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+    /* footer */
+    .footer-logo{
+        font-size: 40px;
+    }
+    .footer-desc{
+        font-size: 14px;
     }
 }
