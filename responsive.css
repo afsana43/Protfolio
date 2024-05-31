@@ -38,9 +38,19 @@
      /* about */
 
      .about-container{
-    flex-direction: column;
+     flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
+      margin-top: 60px;
+    }
+    /* experience */ 
+    .experience-container{
+        flex-direction: column;
+    }
+    .primery-desc{
+        font-size: 14px;
+        width: 400px;
+        
     }
 }
