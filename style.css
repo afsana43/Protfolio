@@ -57,7 +57,7 @@ nav > ul> li{
     width: 500px;
 }
 .sub-title{
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     padding: 16px 0;
     font-weight:lighter;
@@ -150,7 +150,6 @@ nav > ul> li{
 /* awards section */
 .awards-container{
     margin: 30px 0;
-   
 }
 .single-award{
     background-color: black;

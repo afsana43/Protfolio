@@ -1,7 +1,7 @@
 
 @media only screen and (max-width: 640px){
     .container{
-        padding: 16px;
+        padding: 30px;
     }
     .navbar{
         flex-direction: column;
@@ -16,6 +16,9 @@
         align-items: center;
         justify-content: center;
     }
+    #download-btn{
+     margin-left: 70px;
+    }
     .banner-title{
         font-size: 24px;
         font-weight: 800;
@@ -24,6 +27,7 @@
     .banner-content{
         text-align: center;
     }
+  
     .sub-heading{
         margin-left: 5px;
     }
@@ -46,15 +50,35 @@
     /* experience */ 
     .experience-container{
         flex-direction: column;
+        padding: 0 30px;
     }
     .primery-desc{
         font-size: 16px;
-        width: 400px;
+        width: 100%;
     }
     .single-award{
         width: 100%;
     }
+    /* awards */
+
+   .awards-title{
+   font-size: 16px;
+}
+.product-date{
+    font-size: 14px;
+
+}
+.single-award{
+    background-color: black;
+  width: 100%;
+}
     /* protfolio */
+    .all-protfolio-btn button{
+        font-size: 10px;
+    }
+    .primery-title-2{
+        font-size: 35px;
+    }
     .single-project {
         grid-template-columns: auto ;
         gap: 10px;
@@ -73,6 +97,7 @@
         text-transform: uppercase;
         font-weight: 400;
     }
+    
     /* footer */
     .footer-logo{
         font-size: 40px;
