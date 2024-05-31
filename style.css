@@ -155,7 +155,6 @@ nav > ul> li{
 .single-award{
     background-color: black;
     padding: 36px 
-
 }
 .primery-title-2{
     color: white;
@@ -174,9 +173,7 @@ nav > ul> li{
     justify-content: space-between;
     color: white;
 }
-
 /* protfolio section */
-
 .all-protfolio-btn{
    display: flex;
    justify-content: space-evenly;

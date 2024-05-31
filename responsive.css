@@ -3,7 +3,6 @@
     .container{
         padding: 16px;
     }
-    
     .navbar{
         flex-direction: column;
     }
@@ -29,7 +28,7 @@
         margin-left: 5px;
     }
     .banner-img img{
-        width: 480px;
+        width: 100%;
     }
     .banner-container{
         flex-direction: column;
@@ -51,6 +50,10 @@
     .primery-desc{
         font-size: 14px;
         width: 400px;
-        
+    }
+    /* protfolio */
+    .single-project {
+        grid-template-columns: auto ;
+        gap: 10px;
     }
 }
