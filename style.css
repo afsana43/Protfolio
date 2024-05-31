@@ -116,9 +116,10 @@ nav > ul> li{
 }
 
 /* experience section */
+
 .experience-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 80px;
     background-image: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
     --contact-bg: #FD6F001A;
@@ -143,7 +144,7 @@ nav > ul> li{
     color: rgb(198, 190, 190);
     font-size: 14px;
     margin: 10px 0;
-    margin-left: 100px;
+
 }
 .experience-right-content{
     padding: 8px 0;
@@ -151,10 +152,13 @@ nav > ul> li{
 /* awards section */
 .awards-container{
     margin: 30px 0;
+   
 }
 .single-award{
     background-color: black;
-    padding: 36px 
+    padding: 36px ;
+  
+   
 }
 .primery-title-2{
     color: white;
@@ -263,6 +267,7 @@ nav > ul> li{
 .footer-desc{
     padding: 40px;
     color: white;
+    font-size: 12px;
 }
 .name{
     color: var(--primery-color);

@@ -17,7 +17,7 @@
         justify-content: center;
     }
     #download-btn{
-     margin-left: 70px;
+     margin-left: 90px;
     }
     .banner-title{
         font-size: 24px;
@@ -29,7 +29,7 @@
     }
   
     .sub-heading{
-        margin-left: 5px;
+        margin-left: -25px;
     }
     .banner-img img{
         width: 100%;
@@ -56,13 +56,10 @@
         font-size: 16px;
         width: 100%;
     }
-    .single-award{
-        width: 100%;
-    }
     /* awards */
 
    .awards-title{
-   font-size: 16px;
+   font-size: 14px;
 }
 .product-date{
     font-size: 14px;
@@ -70,7 +67,7 @@
 }
 .single-award{
     background-color: black;
-  width: 100%;
+    width: fit-content;
 }
     /* protfolio */
     .all-protfolio-btn button{
@@ -103,6 +100,6 @@
         font-size: 40px;
     }
     .footer-desc{
-        font-size: 14px;
+        font-size: 10px;
     }
 }
