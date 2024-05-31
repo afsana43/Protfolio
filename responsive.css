@@ -1,0 +1,23 @@
+
+@media only screen and (min-width: 375px) and (max-width: 640px){
+    .navbar{
+        flex-direction: column;
+    }
+    .logo{
+        text-align: center;
+    }
+    nav > ul> li{
+        display: block;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner-title{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .primery-desc{
+        font-size: 12px;
+    }
+}
