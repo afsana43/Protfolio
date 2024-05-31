@@ -30,7 +30,7 @@ nav > ul> li{
 .banner-container{
    display: flex;
    justify-content: space-between;
-   gap: 10px;
+  
 }
 .banner-img img{
     width: 100%;
@@ -99,7 +99,7 @@ nav > ul> li{
 .about-container{
     display: flex;
     justify-content: space-between;
-    margin: 50px 0;
+  
 }
 .primery-title{
     color: white;

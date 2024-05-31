@@ -1,5 +1,9 @@
 
 @media only screen and (min-width: 375px) and (max-width: 640px){
+    .container{
+        padding: 16px;
+    }
+    
     .navbar{
         flex-direction: column;
     }
@@ -14,10 +18,29 @@
         justify-content: center;
     }
     .banner-title{
-        font-size: 30px;
+        font-size: 24px;
         font-weight: 800;
+        text-align: center;
     }
-    .primery-desc{
-        font-size: 12px;
+    .banner-content{
+        text-align: center;
+    }
+    .sub-heading{
+        margin-left: 5px;
+    }
+    .banner-img img{
+        width: 480px;
+    }
+    .banner-container{
+        flex-direction: column;
+       
+     }
+     /* about */
+
+     .about-container{
+    flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
 }
