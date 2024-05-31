@@ -120,12 +120,13 @@ nav > ul> li{
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
-    background-color: brown;
+    background-image: linear-gradient(270.16deg, rgba(255, 177, 71, 0.1) 5.74%, rgba(255, 108, 99, 0.1) 50.64%, rgba(184, 106, 223, 0.1) 92.05%);
+    --contact-bg: #FD6F001A;
     padding: 60px;
 }
 .experience-title{
     color: white; 
-    font-size: 30px;
+    font-size: 24px;
     border-bottom: 1px solid gray;
     padding: 10px 0;
 }
